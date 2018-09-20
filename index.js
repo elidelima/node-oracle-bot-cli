@@ -7,7 +7,7 @@ const logger = console;
 const app = express();
 service(app);
 
-const server = app.listen(3005, () => {
+const server = app.listen(3000, () => {
     logger.info(`${pkg.name} service online\n`);
 });
 
