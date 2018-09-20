@@ -11,8 +11,8 @@ module.exports = (app) => {
     // add webhook integration
     const webhook = new WebhookClient({
         channel: {
-            url: 'https://osc153575AutonomousBot03bmxp-osclad004.mobile.ocp.oraclecloud.com:443/connectors/v1/tenants/idcs-917ddc58acd049a6a6977c7a29c7f2a8/listeners/webhook/channels/9BC8D071-D8D6-4B12-AD0C-8F6E6955E2C8',
-            secret: '0nxuaAc77XkBQhPWt02lI3M5gmGebXa9',
+            url: 'https://osc153575AutonomousBot03bmxp-osclad004.mobile.ocp.oraclecloud.com:443/connectors/v1/tenants/idcs-917ddc58acd049a6a6977c7a29c7f2a8/listeners/webhook/channels/60335007-3A55-40EA-9294-145FE76F5240',
+            secret: 'OkoJLMehTzpfxzwiNj41TAqBeIlu8dFH',
         }
     });
     // Add webhook event handlers (optional)
