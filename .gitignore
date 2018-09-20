@@ -1,0 +1,9 @@
+.DS_Store
+.vscode
+.wercker
+.sonar*
+.scanner*
+node_modules
+reports
+typings
+oracle-bots-node-sdk-*.tgz
